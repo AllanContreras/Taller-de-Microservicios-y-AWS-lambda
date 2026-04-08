@@ -89,35 +89,3 @@ Salida:
 User{name='Alice', email='alice@example.com'}
 ```
 
-## C\u00f3mo subir este proyecto a GitHub
-
-Suponiendo que ya tienes una cuenta de GitHub y deseas usar el repositorio remoto:
-
-`https://github.com/AllanContreras/Taller-de-Microservicios-y-AWS-lambda.git`
-
-Desde la carpeta raiz del proyecto que contiene `MathServicesLambda` (por ejemplo `Hello-World-AWS-Lambda-y-Gateway-Services-en-Java`), puedes ejecutar los siguientes comandos:
-
-```bash
-cd c:\Users\allan\Downloads\Hello-World-AWS-Lambda-y-Gateway-Services-en-Java
-
-# Inicializar el repositorio (si todav\u00eda no es un repo git)
-git init
-
-# Agregar el repositorio remoto de GitHub
-git remote add origin https://github.com/AllanContreras/Taller-de-Microservicios-y-AWS-lambda.git
-
-# Agregar todos los archivos al \u00edndice
-git add .
-
-# Crear un commit con los cambios
-git commit -m "Proyecto MathServicesLambda con handlers de ejemplo"
-
-# Subir al branch principal (main o master seg\u00fan como est\u00e9 configurado el repo remoto)
-git branch -M main
-
-git push -u origin main
-```
-
-> Nota: Es posible que GitHub te pida autenticaci\u00f3n (usuario/contrase\u00f1a o token personal). Sigue las instrucciones que aparezcan en la terminal.
-
-Con esto, el proyecto (incluyendo este `README.md`) quedar\u00e1 subido al repositorio remoto proporcionado.
